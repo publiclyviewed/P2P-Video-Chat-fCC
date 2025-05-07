@@ -1,0 +1,24 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>P2P Video Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="join-container">
+    <h2>Enter Room Name</h2>
+    <input type="text" id="room-input" placeholder="Room name" />
+    <button id="join-btn">Join</button>
+    <div id="error"></div>
+  </div>
+
+  <div id="video-chat" style="display:none;">
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

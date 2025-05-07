@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  #join-container {
+    margin-top: 50px;
+  }
+  
+  video {
+    width: 45%;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
